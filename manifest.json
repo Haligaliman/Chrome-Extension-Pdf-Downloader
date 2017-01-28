@@ -17,7 +17,7 @@
   },
   
   "background": {
-    "scripts": ["popup.js"],
+    "scripts": ["download.js"],
     "persistent": false
   },
   

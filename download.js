@@ -19,7 +19,6 @@ for (var index in links) {
   visibleLinks = allLinks;
 
   
- //alert("why");
   for (var i = 0; i < visibleLinks.length; ++i) {
 	  
 	 

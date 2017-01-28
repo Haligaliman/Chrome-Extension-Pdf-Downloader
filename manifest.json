@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Lukas' PDF Downloader",
+  "description": "Download all the PDFs linked in the current Tab",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "I don't know what i'm doing!"
+  },
+  
+  "icons": {
+    "128": "images/icon-128.png",
+    "48": "images/icon-48.png",
+    "16":"images/icon-16.png"
+  },
+  
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  },
+  
+  "author": "Haligaliman",
+  
+  "permissions": [
+	"downloads", 
+	"<all_urls>",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
